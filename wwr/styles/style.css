@@ -31,3 +31,33 @@ body {
   background-color: #5762D5;
   color: aliceblue;
 }
+
+header {
+  background-color: #5762D5;
+  color: aliceblue;
+}
+
+nav a:hover {
+  background-color: #000000;
+  color: aliceblue;
+}
+
+.book, .join {
+  background-color: #5762D5;
+  color: aliceblue;
+}
+
+.book:hover, .join:hover {
+  background-color: #000000;
+  color: aliceblue;
+}
+
+.msg {
+  background-color: #5762D5;
+  color: aliceblue;
+}
+
+footer {
+  background-color: #5762D5;
+  color: aliceblue;
+}
