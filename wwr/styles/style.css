@@ -26,3 +26,8 @@ main section {
 #background {
   height: 725px;
 }
+
+body {
+  background-color: #5762D5;
+  color: aliceblue;
+}
