@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Open+Sans:ital,wght@1,500&display=swap');
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -48,10 +48,15 @@ body {
 
 h2 {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  background-color: #5762D5;
+  background-color: #575366;;
   color: aliceblue;
 }
 
@@ -78,7 +83,7 @@ nav a:hover {
 .home-title {
   background-color: #6E7DAB;
   color: aliceblue;
-  font-family:'Oswald', 'Helvetica', sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
   font-size: 2em;
   margin-top: 10px;
 }
@@ -110,21 +115,22 @@ footer p a:hover {
 }
 
 .msg {
-  background-color: #5762D5;
+  background-color: #575366;
   color: aliceblue;
   line-height: 1.5em;
   padding: 35px;
 }
 
 .msg h2 {
-  background-color: #575366;
-  color: aliceblue;
+  background-color: #57536600;
+  color: rgba(240, 248, 255, 0);
+  color: #ffffff;
 }
 
 .msg p {
-  background-color: white;
-  color: black;
-  font-size: .8em;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
   padding-bottom: 15px;
 }
 
@@ -155,4 +161,8 @@ footer .social img {
 
 main section img {
   box-sizing: border-box;
+}
+
+.join {
+  background-color: #5762D5;
 }
