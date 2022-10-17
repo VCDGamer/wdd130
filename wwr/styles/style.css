@@ -28,6 +28,7 @@ main section {
 
 #background {
   height: 725px;
+  background-color: #6E7DAB;
 }
 
 body {
@@ -49,6 +50,7 @@ nav a:hover {
   background-color: #5762D5;
   color: aliceblue;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .book:hover, .join:hover {
@@ -59,6 +61,7 @@ nav a:hover {
 .msg {
   background-color: #5762D5;
   color: aliceblue;
+  line-height: 1.5em;
 }
 
 footer {
@@ -69,7 +72,8 @@ footer {
 .home-title {
   background-color: #6E7DAB;
   color: aliceblue;
-  font-family: 'Rock Salt', 'Bradley Hand', sans-serif
+  font-family:'Oswald', 'Helvetica', sans-serif;
+  font-size: 2em;
 }
 
 footer a {
@@ -99,6 +103,7 @@ footer p a:hover {
 .msg p {
   background-color: white;
   color: black;
+  font-size: .8em;
 }
 
 .icon {
