@@ -8,6 +8,11 @@ nav a {
   text-align: center;
   color: #ffffff;
   text-decoration: none;
+  padding: 35px;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 #hero-msg h1 {
@@ -34,6 +39,12 @@ main section {
 body {
   background-color: #ffffff;
   color: black;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 header {
@@ -51,21 +62,11 @@ nav a:hover {
   color: aliceblue;
   text-decoration: none;
   font-size: 18px;
+  padding: 15px 30px;
 }
 
 .book:hover, .join:hover {
   background-color: #000000;
-  color: aliceblue;
-}
-
-.msg {
-  background-color: #5762D5;
-  color: aliceblue;
-  line-height: 1.5em;
-}
-
-footer {
-  background-color: #575366;
   color: aliceblue;
 }
 
@@ -74,6 +75,12 @@ footer {
   color: aliceblue;
   font-family:'Oswald', 'Helvetica', sans-serif;
   font-size: 2em;
+}
+
+footer {
+  background-color: #575366;
+  color: aliceblue;
+  padding: 25px 50px;
 }
 
 footer a {
@@ -95,6 +102,13 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+.msg {
+  background-color: #5762D5;
+  color: aliceblue;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
 .msg h2 {
   background-color: #575366;
   color: aliceblue;
@@ -104,10 +118,12 @@ footer p a:hover {
   background-color: white;
   color: black;
   font-size: .8em;
+  padding-bottom: 15px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -116,4 +132,8 @@ footer p a:hover {
 
 #hero-img {
   width: 100%;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
