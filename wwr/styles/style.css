@@ -64,6 +64,7 @@ nav a:hover {
   font-size: 18px;
   padding: 15px 30px;
   margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -143,4 +144,12 @@ footer p a:hover {
 
 footer .social img {
   padding-top: 15px;
+}
+
+.card-img {
+  border: 10px solid #6E7DAB;
+}
+
+main section img {
+  box-sizing: border-box;
 }
