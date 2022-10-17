@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -68,6 +69,7 @@ footer {
 .home-title {
   background-color: #6E7DAB;
   color: aliceblue;
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif
 }
 
 footer a {
